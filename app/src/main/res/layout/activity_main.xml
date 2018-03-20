@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:background="#B388FF"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:gravity="center">
 
     <ImageView
         android:id="@+id/android_cookie_image_view"
@@ -30,9 +31,21 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="EAT COOKIE"
+        android:background="#40ffef"
         android:onClick="eatCookie" />
 
-    
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reset"
+        android:layout_marginBottom="10dp"
+        android:background="#40ffef"
+        android:text="Reset" />
+
+
+
 
 </LinearLayout>
 
